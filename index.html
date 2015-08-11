@@ -104,7 +104,8 @@ charset=utf-8">
                 </li>
                 <li>Developed GPU auto-partitioning mechanisms to allow larger than memory datasets.
                 </li>
-                <li>Implemented logistic regression and k-mean using cuSpark and achieved comparable performance with Thrust
+                <li>Implemented logistic regression and k-mean using cuSpark and achieved comparable performance with
+                    Thrust
                     implementations.
                 </li>
                 <li>Won the 3rd Place out of 74 teams in the 2015 Parallelism Competition at CMU.</li>
@@ -112,6 +113,92 @@ charset=utf-8">
         </div>
     </div>
 
+    <h3>Course Projects:</h3>
+
+    <div class="media">
+        <div class="media-left media-top">
+        </div>
+        <div class="media-body">
+            <h4 class="media-heading">Twitter Analytics</h4>
+            Deployed a web service on Amazon AWS that responses a number of analytical queries for Twitter data using
+            Undertow web framework. Processed 1TB of twitter data using Hadoop MapReduce and HBase with Amazon AWS.
+        </div>
+    </div>
+
+    <div class="media">
+        <div class="media-left media-top">
+        </div>
+        <div class="media-body">
+            <h4 class="media-heading">Liso - An HTTP/1.1 web server</h4>
+            Designed and implemented a HTTP 1.1 web server in C. which supports:
+            <ol type="i">
+                <li>Concurrent connections based on select().
+                </li>
+                <li>Persistent HTTP/HTTPS connections via TLS.
+                </li>
+                <li>CGI interactions.
+                </li>
+            </ol>
+        </div>
+    </div>
+
+    <div class="media">
+        <div class="media-left media-top">
+        </div>
+        <div class="media-body">
+            <h4 class="media-heading">Congestion Control with BitTorrent</h4>
+            Implemented a p2p file transfer application on top of UDP with the following features:
+            <ol type="i">
+                <li>Congestion control similar to TCP (slow start and congestion avoidance)
+                </li>
+                <li>Simultaneously download/upload different chunks of a file from/to different peers
+                </li>
+                <li>Discover available chunks via SHA
+                </li>
+                <li>Timeout for potentially crashed peers
+                </li>
+            </ol>
+        </div>
+    </div>
+
+    <div class="media">
+        <div class="media-left media-top">
+        </div>
+        <div class="media-body">
+            <h4 class="media-heading">Video CDN</h4>
+            Implemented a video content distribution network and ran simulations on different network topologies. The CDN includes:
+            <ol type="i">
+                <li>A proxy that is able to adaptively select bit-rate according to network throughput.
+                </li>
+                <li>A simple DNS server supporting load balancing. The algorithms for load balancing includes Round Robin and OSPF.
+                </li>
+                <li>An accompanying DNS resolution library
+                </li>
+            </ol>
+        </div>
+    </div>
+
+
+    <div class="media">
+        <div class="media-left media-top">
+        </div>
+        <div class="media-body">
+            <h4 class="media-heading">Gravel - Real-Time Operating System Kernel for ARM processor</h4>
+            Implemented a multitask RTOS Kernel with the following features:
+            <ol type="i">
+                <li>basic system calls (read, write, exit, sleep, time, mutex_lock, mutex_unlock, etc).
+                </li>
+                <li>context switching and rate monotonic task scheduling.
+                </li>
+                <li>timer and interrupt controller drivers.
+                </li>
+                <li>mutexes for concurrency control.
+                </li>
+                <li>priority inheritance using Highest Locker Priority Protocol.</li>
+                <li>a Snake game based on system calls of the implemented RTOS.</li>
+            </ol>
+        </div>
+    </div>
 </div>
 </body>
 </html>
